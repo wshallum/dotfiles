@@ -1,0 +1,45 @@
+! XTerm - use color customization, identify as xterm-256color, 
+! use locale (auto UTF), and set the default font to the default "Large" font
+XTerm*customization: color
+XTerm*termName: xterm-256color
+XTerm*locale: true
+XTerm*VT100.font: 9x15
+XTerm*VT100.utf8Fonts.font:	-misc-fixed-medium-r-normal--18-120-100-100-c-90-iso10646-1
+
+! --- generated with 4bit Terminal Color Scheme Designer -----------------------
+! --- http://ciembor.github.com/4bit -------------------------------------------
+XTerm*background: #d9d9d9
+XTerm*foreground: #000000
+! black
+XTerm*vt100.color0: #000000
+! bright_black
+XTerm*vt100.color8: #262626
+! red
+XTerm*vt100.color1: #b62121
+! bright_red
+XTerm*vt100.color9: #e36464
+! green
+XTerm*vt100.color2: #21b621
+! bright_green
+XTerm*vt100.color10: #64e364
+! yellow
+XTerm*vt100.color3: #b6b621
+! bright_yellow
+XTerm*vt100.color11: #e3e364
+! blue
+XTerm*vt100.color4: #2121b6
+! bright_blue
+XTerm*vt100.color12: #6464e3
+! magenta
+XTerm*vt100.color5: #b621b6
+! bright_magenta
+XTerm*vt100.color13: #e364e3
+! cyan
+XTerm*vt100.color6: #21b6b6
+! bright_cyan
+XTerm*vt100.color14: #64e3e3
+! white
+XTerm*vt100.color7: #d9d9d9
+! bright_white
+XTerm*vt100.color15: #ffffff
+! --- end of terminal colors section -------------------------------------------
