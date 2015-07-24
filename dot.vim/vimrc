@@ -1,0 +1,16 @@
+set nocompatible
+set ai
+syntax on
+set ts=8
+set sts=4
+set sw=4
+set et
+
+let g:zenburn_high_Contrast=1
+colorscheme zenburn
+
+if has("gui_running")
+    if has("gui_win32")
+        set guifont=Inconsolata:h12:cDEFAULT,Consolas:h12:cDEFAULT,Courier_New:h12:cDEFAULT
+    endif
+endif
