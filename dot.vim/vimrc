@@ -6,6 +6,8 @@ set sts=4
 set sw=4
 set et
 
+filetype plugin indent on
+
 let g:zenburn_high_Contrast=1
 colorscheme zenburn
 
