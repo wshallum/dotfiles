@@ -5,6 +5,13 @@ XTerm*termName: xterm-256color
 XTerm*locale: true
 XTerm*VT100.font: 9x15
 XTerm*VT100.utf8Fonts.font:	-misc-fixed-medium-r-normal--18-120-100-100-c-90-iso10646-1
+XTerm*loginShell: true
+
+XTerm*VT100.Translations: #override \n\
+        Shift <KeyPress> Insert:        insert-selection(CLIPBOARD) \n\
+        <Btn2Up>:                       insert-selection(SELECT) \n\
+        ~Shift<BtnUp>:                  select-end(PRIMARY) \n\
+        Shift<BtnUp>:                   select-end(CLIPBOARD)
 
 ! --- generated with 4bit Terminal Color Scheme Designer -----------------------
 ! --- http://ciembor.github.com/4bit -------------------------------------------
